@@ -1,12 +1,12 @@
 {
-    "name": "structure/setup",
+    "name": "laraproj/setup",
     "description": "This package provides a pre-configured template integration for Laravel, allowing developers to quickly set up a basic project structure. With just a single installation, you get a ready-to-use foundation, including essential layouts, styles, and components, helping you kickstart your Laravel project without repetitive setup.",
     "type": "library",
     "version": "1.0.0",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Structure\\Setup\\": "src/"
+            "laraproj\\Setup\\": "src/"
         }
     },
     "authors": [
