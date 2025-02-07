@@ -1,20 +1,45 @@
 {
-    "name": "laraproj/setup",
-    "description": "This package provides a pre-configured template integration for Laravel, allowing developers to quickly set up a basic project structure. With just a single installation, you get a ready-to-use foundation, including essential layouts, styles, and components, helping you kickstart your Laravel project without repetitive setup.",
-    "type": "library",
-    "version": "1.0.0",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "laraproj\\Setup\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Gautam Gareja",
-            "email": "gareja4g@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {}
+  "name": "laraproj/setup",
+  "description": "This package provides a pre-configured template integration for Laravel, allowing developers to quickly set up a basic project structure. With just a single installation, you get a ready-to-use foundation, including essential layouts, styles, and components, helping you kickstart your Laravel project without repetitive setup.",
+  "keywords": [
+    "laravel",
+    "crud",
+    "ajax",
+    "laravel-crud",
+    "project-structure",
+    "starter-kit",
+    "php",
+    "laravel-package",
+    "ajax-crud",
+    "web-development",
+    "laravel-ajax",
+    "automated-structure",
+    "development-tool"
+  ],
+  "type": "library",
+  "version": "1.0.0",
+  "license": "MIT",
+  "require": {
+    "kyslik/column-sortable": "^6.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "LaraProj\\Setup\\Providers\\LaraProjServiceProvider"
+      ]
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "LaraProj\\Setup\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Gautam Gareja",
+      "email": "gareja4g@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
